@@ -1,0 +1,76 @@
+/* I menu che appaiono quando passiamo sui bottoni */
+.container-submenu {
+    position: absolute;
+    top: -800px;
+    z-index: -10;
+    padding: 30px;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 4px;
+    overflow: hidden;
+    text-transform: none;
+    width: fit-content;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+  }
+  
+  .button-menu li:hover .container-submenu {
+    display: flex;
+    flex-flow: wrap;
+    top: 100%;
+  }
+  
+  /* Le impostazioni nel sottomenu */
+  .line-menu {
+    margin-left: 13px;
+    margin-right: 13px;
+  }
+  
+  .submenu-left {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+  }
+  .submenu-right {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+  }
+  .submenu-ae {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+  }
+  #ae {
+    margin-left: 100px;
+  }
+  #info {
+    margin-left: 260px;
+  }
+  #impegni {
+    margin-left: 400px;
+  }
+  #r {
+    margin-left: 520px;
+  }
+  .submenu-info {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+  }
+  
+  .submenu-impegni {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+  }
+  
+  .submenu-r {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+  }
+  .submenu-title {
+    font-weight: bold;
+  }
